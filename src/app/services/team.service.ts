@@ -21,9 +21,5 @@ export class TeamService {
         return Object.values(res['data'][0]['attributes']['memberCards']);
       })
     )
-    
-    //                                         .pipe(
-    //   tap(data => console.log(data).json())
-    // )
   }
 }

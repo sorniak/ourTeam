@@ -12,16 +12,9 @@ export class TeamComponent implements OnInit {
     private teamService: TeamService
   ) { }
 
-  // members = []
     members: any;
   ngOnInit(): void {
     this.members = this.teamService.getMembers();
-
-    // this.teamService.getMembers()
-    //   .subscribe(
-    //     members => this.members = members
-    //   )
-    // console.log(this.members);
   }
 
 
