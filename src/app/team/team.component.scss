@@ -1,0 +1,56 @@
+@import "../../assets/_variables.scss";
+
+.item {
+    display: inline-block;
+    margin: 0 15px 0 0;
+    width: 200px;
+    font-size: 12px;
+    line-height: 22px;
+    font-family: sans-serif;
+}
+
+.item__info {
+    margin: 0 0 0 15px;
+}
+
+.item__member_image {
+    height: 200px;
+    margin: 0 0 15px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 500px;
+    margin: 0 auto 0 auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: -1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: -1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: -1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.header__container {
+    position: absolute;
+    top: 50px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: $dark-text-color;
+}
+
+.margin-top-15 {
+    margin-top: 15px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 14px;
+    color: $dark-text-color;
+}
+
+.link{
+    font-weight: bold;
+    color: $light-blue-color;
+}

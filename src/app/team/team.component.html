@@ -1,0 +1,13 @@
+<section class="container">
+    <div class="header__container">
+        Our team
+    </div>
+    <div class="item" *ngFor="let member of members | async">
+        <div class="item__member_image" [ngStyle]="{'background-image': 'url(' + member.imageUrl.w200 + ')'}"></div>
+        <div class="item__info title">{{member.block.title}}</div>
+        <div class="item__info">{{member.block.description}}</div>
+        <div class="item__info margin-top-15 link">{{member.block.link}}</div>
+        <div class="item__info">{{member.block.text}}</div>
+    </div>
+</section>
+
